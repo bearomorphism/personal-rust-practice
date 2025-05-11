@@ -50,7 +50,9 @@ body:
       description: |
         For older commitizen versions, please include the output of the following commands manually:
 
+        ```bash
         cz version --report
+        ```
       placeholder: |
         Commitizen Version: 4.0.0
         Python Version: 3.13.3 (main, Apr  8 2025, 13:54:08) [Clang 16.0.0 (clang-1600.0.26.6)]
