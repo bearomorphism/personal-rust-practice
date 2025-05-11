@@ -49,7 +49,6 @@ body:
       label: Environment
       description: |
         For older commitizen versions, please include the output of the following commands manually:
-
         ```bash
         cz version --report
         ```
