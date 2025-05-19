@@ -53,9 +53,8 @@ body:
         cz version --report
         ```
         
-        In case of `cz version --report` is not available, please use the following command to retrieve environment information
-
-        ```
+        If `cz version --report` is not available, please run the following commands to retrieve your environment information:
+        ```bash
         echo "Commitizen Version: $(cz version)"
         echo "Python Version: $(python3 -c 'import sys; print(sys.version)')"
         echo "Operating System: $(python3 -c 'import platform; print(platform.system())')"
